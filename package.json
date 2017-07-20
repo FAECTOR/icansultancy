@@ -1,0 +1,28 @@
+{
+    "name": "barefootfitness",
+    "version": "1.0.0",
+    "description": "staticstatic generator",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/timellemeet/barefootfitness.git"
+    },
+    "author": "timellemeet",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/timellemeet/barefootfitness/issues"
+    },
+    "homepage": "https://github.com/timellemeet/barefootfitness#readme",
+    "dependencies": {
+        "ect": "0.5.9",
+        "gulp": "3.9.1",
+        "gulp-clean-css": "2.0.12",
+        "gulp-concat": "2.6.0",
+        "gulp-ect-simple": "0.1.0",
+        "gulp-jsmin": "0.1.5",
+        "gulp-sass": "2.3.2"
+    }
+}
