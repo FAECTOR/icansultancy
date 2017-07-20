@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50, 50, 50, .95);
+    .wrapper {
+        margin: 0 auto;
+        width: 90%;
+        nav {
+            margin-top: 10px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            a {
+                font: 1.2em/1em sans-serif;
+                display: inline-block;
+                padding: 10px 15px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

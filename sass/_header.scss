@@ -3,14 +3,29 @@ header {
     width:100%;
     background:url('images/header.jpg');
         /* Set a specific height */
-    height:100vh;
+    height:93vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
+    //opacity:1;
+     -webkit-filter: grayscale(75%); /* Old WebKit */
+     filter: grayscale(75%);
     
     .intro-content {
-        opacity: 1;
+        -webkit-filter: none; /* Old WebKit */
+     filter: none;
+        color:#fff;
+        padding-top:40vh;
+              width:100%;
+            text-align:center;
+        h1 {
+
+            span{
+            font-size:15rem;
+            }
+        }
     }
-}
+} 

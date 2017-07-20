@@ -1,0 +1,31 @@
+.representatives {
+    background:#f5f5f5;
+    -webkit-box-shadow: inset 0px 1px 1px 0px #dcdcdc;
+-moz-box-shadow: inset 0px 1px 1px 0px #dcdcdc;
+box-shadow: inset 0px 1px 1px 0px #dcdcdc;
+padding-bottom:30px;
+    .header {
+        text-align:center;
+        margin-bottom:40px;
+        
+        h1 {margin:none;
+            padding:none;
+        }
+    }
+    
+    .col-md-4 {
+        text-align:center;
+        img {
+            border-radius: 50%;
+            width:40%;
+            margin-bottom:15px;
+        }
+        
+        .name {
+            font-weight:700;
+            font-size:2rem;
+            clear:both;
+        }
+        
+    }
+} 
